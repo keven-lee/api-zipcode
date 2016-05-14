@@ -1,0 +1,30 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.container-fluid {
+    background-image: url("city.jpg");
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+    color: #fff;
+    text-align: center;
+    
+}
+p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.alert {
+    margin-top: 20px;
+    display: none;
+}
+
