@@ -20,7 +20,7 @@ $(document).ready(function() {
         }
 
         function processJSON(initial) {
-
+           
             var digitsBeforeAddress = initial.results;
             for (var i = 0; i < digitsBeforeAddress.length; i++) {
                 for (var x = 0; x < digitsBeforeAddress[i].address_components.length; x++) {
